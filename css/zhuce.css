@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+input {
+  outline: none; }
+
+body {
+  width: 100%;
+  height: 630px;
+  background: url(../img/d1.png) no-repeat; }
+
+#box {
+  width: 320px;
+  height: 540px;
+  margin-left: 700px;
+  margin-top: 160px; }
+  #box div {
+    width: 320px;
+    height: 36px;
+    margin: 10px auto; }
+    #box div span {
+      display: block;
+      float: left;
+      width: 160px;
+      height: 36px;
+      text-align: center;
+      font-size: 18px;
+      color: #e63955;
+      border-bottom: 2px solid  #ccc;
+      cursor: pointer; }
+    #box div span:first-child {
+      border-bottom: 2px solid  #e63955; }
+  #box ul li {
+    width: 320px;
+    height: 36px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    position: relative;
+    margin-top: 30px; }
+    #box ul li img {
+      width: 36px;
+      height: 36px;
+      display: block;
+      float: left; }
+    #box ul li input {
+      display: block;
+      float: left;
+      width: 284px;
+      height: 36px;
+      border: none; }
+    #box ul li P {
+      position: absolute;
+      top: 36px;
+      width: 320px;
+      height: 30px;
+      line-height: 30px;
+      font-size: 14px;
+      color: #e63955;
+      border-bottom: none; }
+    #box ul li #img_1, #box ul li #img_2 {
+      position: absolute;
+      right: -40px;
+      display: none; }
+    #box ul li #img_0 {
+      position: absolute;
+      right: 4px;
+      width: 36px;
+      cursor: pointer; }
+    #box ul li #box1 {
+      width: 120px;
+      position: absolute;
+      right: 36px;
+      cursor: pointer; }
+  #box section {
+    width: 320px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #e63955;
+    color: #fff;
+    margin-top: 36px;
+    cursor: pointer; }
+  #box p {
+    width: 320px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px; }
+    #box p span {
+      color: #e63955;
+      text-decoration: underline;
+      cursor: pointer; }
+  #box p:last-child {
+    margin-top: 20px;
+    border-bottom: none; }
+
+/*# sourceMappingURL=zhuce.css.map */

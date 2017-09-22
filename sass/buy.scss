@@ -1,0 +1,248 @@
+@import "all";
+
+#taoNiu_1{
+    background-color:#f3f3f3;
+    margin:0 auto;
+    width:1260px;
+    height:32px;
+    line-height:32px;
+    ul:first-child{
+        float: left;
+        font-size: 12px;
+        margin-left:30px;
+        li{
+            float: left;
+            margin-left:10px;
+            a{
+                color:#666;
+            }
+        }
+        li:nth-child(2){
+            a{
+                color:#f10;
+            }
+        }
+    } 
+    ul:last-child{
+        float: right;
+        margin-right:30px;
+        font-size: 12px;
+        li{
+            float: left;
+            margin-right:10px;
+            a{
+                color:#666;
+            }
+            img{
+                vertical-align: middle;
+            }
+        }
+        li:last-child{
+            a{
+                color:#f10;
+            }
+        }
+    }  
+}
+
+
+#taoNiu_2{
+    width:1260px;
+    height:74px;
+    margin:0 auto;
+    background: #fff;
+    a{
+        float:left;
+        margin-left:30px;
+    }
+    div{
+        border:2px solid #f10;
+        float: left;
+        margin-left:100px;
+        margin-top:18px;
+        width:380px;
+        height:38px;
+        p{
+            float:left;
+            width:58px;
+            height:38px;
+            background: #f6f6f6;
+            text-align: center;
+            line-height: 38px;
+        }
+        input:nth-last-child(2){
+            float:left;
+            width:260px;
+            height:38px;
+            border: none;
+        }
+        input:last-child{
+            float:right;
+            width:62px;
+            height:38px;
+            background: #f10;
+            color:#fff;
+            font-size:18px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    img:last-child{
+        float:right;
+        margin-right:30px;
+        margin-top:20px;
+    }
+}
+
+
+#taoNiu_3{
+    width:1260px;
+    height:38px;
+    margin:0 auto;
+    background: #443e56;
+    font-size:15px;
+    div{
+        float: left;
+        margin-left:30px;
+        width:200px;
+        height:38px;
+        background:#332d43;
+        padding-left:30px;
+        box-sizing: border-box;
+        line-height:38px;
+        span{
+            color:#f10;
+            margin-right:20px;
+        }
+        a{
+            color:#fff;
+        }
+    }
+    ul:nth-last-child(2){
+        float: left;
+        margin-left:20px;
+        li{
+            float:left;
+            margin-left:20px;
+            a{
+                color:#fff;
+                line-height:38px;
+                border-bottom: none;
+            }
+            a:hover{
+                color:#fff;
+                line-height:38px;
+                border-bottom: 1px solid #fff;
+                
+            }
+        }
+        li:first-child{
+            a{
+                border-bottom: 1px solid #fff;
+            }
+        }
+    }
+    ul:last-child{
+        float:right;
+        margin-right:30px;
+        li{
+            float:left;
+            margin-right:20px;
+            a{
+                color:#fff;
+                line-height:38px;
+                border-bottom: none;
+            }
+            a:hover{
+                color:#fff;
+                line-height:38px;
+                border-bottom: 1px solid #fff;               
+            }
+            img{
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+.taoNiu_4{
+    width:720px;
+    margin:50px auto;
+    text-align: center;
+    .cartHead{
+        border-bottom: 1px solid black;
+        height: 50px;
+        li{
+            width: 120px;
+            height: 50px;
+            float: left;
+            font: 26px/50px "楷体";
+            text-align: center;
+        }
+    }
+    .goodInfo{
+        border-bottom: 1px solid black;
+        height: 40px;
+        li{
+            float: left;
+            width: 120px;
+            height: 40px;
+            font: 14px/40px "";
+            text-align: center;
+            input{
+                width: 30px;
+                text-align: center;
+            }
+            img{
+            width: 30px;
+            height: 30px;
+            margin-top: 5px;
+            text-align: center;
+            }
+        }
+        .num a{
+            display: inline-block;
+            width: 10px;
+            height: 20px;
+            font: 12px/20px "";
+            background: #ddd;
+            text-decoration: none;
+        }
+    }
+    .blank {
+        height: 50px;
+        font: 26px/50px "楷体";
+        text-align: center;
+        border-top: none;
+        display: none;
+    }
+}
+
+.taoNiu_5{
+    text-align: center;
+    margin-bottom:50px;
+    input{
+        display: inline-block;
+        width:100px;
+        height:30px;
+        cursor: pointer;
+    }
+}
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
